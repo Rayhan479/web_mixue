@@ -1,7 +1,3 @@
-# Absensi_Pegawai
-Sebuah percobaan aplikasi web untuk melakukan absen pegawai
+# Absensi_Pegawai_Mixue
+Web untuk absensi pegawai mixue beserta dashboard admin
 
-Untuk menggunakannya
-1. Masukkan file ini semua di folder htdocs kalian masing masing
-2. import file sql yang ada disini ke database kalian
-3. Untuk login, lihat note yang disediakan (userlogin.txt)
