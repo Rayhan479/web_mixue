@@ -1,0 +1,106 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(243, 60, 60);
+}
+
+.wrapper{
+    border: 2px solid #9b0707;
+    width: 500px;
+    height: 510px;
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 54px;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    color: #303940;
+    
+}
+
+.input-login{
+    border: none;
+    padding: 16px;
+    margin: 8px;
+    font-size: 16px;
+    border-radius: 54px;
+    background-color: rgb(212, 235, 227);
+}
+
+.wrapper .logo-image {
+    background-color: red;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+
+button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 0 10px;
+    width: 200px;
+    padding: 10px 0;
+    box-shadow: 0 0 20px rgba(224, 85, 85, 0.2);
+    transition: 0.4s;
+    border-radius: 54px;
+    margin-top: 30px;
+
+  }
+  
+  .log {
+    color: white;
+    background-color: rgb(224, 85, 85);
+    
+    border: 1px solid rgb(224, 85, 85);
+    font-weight: bold;
+  }
+  
+  button:hover {
+    color: rgb(248, 0, 0);
+    
+    /* width:; */
+    box-shadow: 0 0 20px rgba(224, 85, 85, 0.6);
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+
+label{
+    font-size: 20px;
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.title{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 14px;
+    padding: 8px;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.notif-login{
+    background-color: rgba(49, 31, 243, 0.105);
+    font-size: 18px;
+    text-align: center;
+    color: red;
+    font-family: "Poppins", sans-serif;
+    padding: 8px;
+    margin: 4px;
+    font-weight: 500;
+}

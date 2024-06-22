@@ -1,0 +1,141 @@
+body {
+  font-size: .875rem;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+}
+
+/*
+ * Sidebar
+ */
+
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  /* rtl:raw:
+  right: 0;
+  */
+  bottom: 0;
+  /* rtl:remove */
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  background-color: #161C24;
+}
+
+.sidebarMenu {
+  background-color: #161C24;
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
+
+.sidebar-sticky {
+  height: calc(100vh - 48px);
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #919EAB;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #919EAB;
+}
+
+.sidebar .nav-link.active {
+  color: #ffffff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: #161C24;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+.tambah{
+  font-size: larger;
+  color: #2470dc;
+}
+
+/* Card */
+
+.card {
+  border-radius: 16px;
+  height: 180px;
+  width: 230px;
+  border: none;
+  margin-bottom: 40px;
+}
+.card-admin {
+  background-color: #DCFCE7;
+}
+.card-pegawai {
+  background-color: #F3E8FF;
+}
+.card-absen {
+  background-color: #FFF4DE;
+}
+.card h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 5px;
+  font-size: 24px;
+}
+
+.card .card-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-left: 5px;
+  font-size: 16px;
+  color: #425166;
+}
